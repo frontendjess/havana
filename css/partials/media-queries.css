@@ -119,6 +119,19 @@
 	.menu-drinks-list {
 		grid-template-columns: 1fr;
 	}
+
+	.reservation-card-container {
+		grid-template-columns: 100%;
+		width: 100vw;
+	}
+
+	.reservation-card-img {
+		height: 330px;
+	}
+
+	.reservation-title {
+		margin-top: 4rem;
+	}
 }
 
 /* animations */
