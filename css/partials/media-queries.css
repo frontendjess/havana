@@ -1,4 +1,4 @@
-/* mobile version */
+/* desktop version */
 @media screen and (min-width: 900px) {
 	section {
 		padding: 7.9rem;
@@ -109,6 +109,15 @@
 
 	.newsletter-btn {
 		margin-left: 15.5rem;
+	}
+}
+
+/* mobile version */
+
+@media screen and (max-width: 899px) {
+	.menu-content,
+	.menu-drinks-list {
+		grid-template-columns: 1fr;
 	}
 }
 
