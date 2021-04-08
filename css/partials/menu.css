@@ -24,3 +24,57 @@
 .menu-heading-col {
 	border: solid 1px blue;
 }
+
+.menu-list {
+	border: solid 1px violet;
+}
+
+.menu-list-title {
+	font-size: 3rem;
+}
+
+.menu-list hr {
+	margin: 1.6rem 0;
+}
+
+hr .separator {
+	border-bottom: 2px solid #d8d8d8;
+}
+
+.menu-list__items {
+	list-style: none;
+}
+
+.menu-list__item {
+	position: relative;
+	margin-bottom: 2rem;
+}
+
+.menu-list__item-title {
+	/* position: relative; */
+	text-transform: uppercase;
+	letter-spacing: 0.1rem;
+	font-size: 1.8rem;
+}
+
+.menu-list__item-desc {
+	position: relative;
+	padding: 1.6rem 0;
+	border: solid 1px orange;
+}
+
+.menu-list__item-price {
+	position: absolute;
+	top: 0;
+	right: 0;
+	max-width: 9.6rem;
+	line-height: 1.4;
+	font-size: 1.8rem;
+}
+
+.menu-list__item-desc-price {
+	position: absolute;
+	top: 1;
+	right: 0;
+	max-width: 9.6rem;
+}
