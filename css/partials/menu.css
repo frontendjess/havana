@@ -14,19 +14,16 @@
 	width: 100%;
 	max-width: 122.5rem;
 	margin: 0 auto;
-	/* padding: 0 2.4rem; */
+	padding: 7.9rem 2.4rem;
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
 	grid-gap: 3rem;
-	border: solid 1px hotpink;
 }
 
 .menu-heading-col {
-	border: solid 1px blue;
 }
 
 .menu-list {
-	border: solid 1px violet;
 }
 
 .menu-list-title {
@@ -51,7 +48,6 @@ hr .separator {
 }
 
 .menu-list__item-title {
-	/* position: relative; */
 	text-transform: uppercase;
 	letter-spacing: 0.1rem;
 	font-size: 1.8rem;
@@ -60,7 +56,6 @@ hr .separator {
 .menu-list__item-desc {
 	position: relative;
 	padding: 1.6rem 0;
-	border: solid 1px orange;
 }
 
 .menu-list__item-price {
@@ -77,4 +72,90 @@ hr .separator {
 	top: 1;
 	right: 0;
 	max-width: 9.6rem;
+}
+
+/* drinks menu */
+
+.menu-drinks {
+	width: 100%;
+
+	margin: 0 auto;
+	padding: 0 2.4rem 7.9rem 2.4rem;
+}
+
+.menu-drinks-hero {
+	height: 30vh;
+	background: url('../../img/perfect-blend.jpg') top no-repeat;
+	background-size: cover;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+
+.menu-drinks-list {
+	width: 100%;
+	max-width: 122.5rem;
+	margin: 3rem auto;
+	padding: 2.4rem 2.4rem;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-gap: 3rem;
+}
+
+.menu-list__drink {
+	text-transform: uppercase;
+	letter-spacing: 0.2rem;
+	font-size: 1.6rem;
+	font-weight: 600;
+}
+
+.menu-list__drink-type {
+	position: absolute;
+	top: 0;
+	right: 0;
+	max-width: 9.6rem;
+	line-height: 1.4;
+	letter-spacing: 0.2rem;
+	font-size: 1.6rem;
+	font-weight: 600;
+}
+
+/* scallops */
+
+.scallop-down {
+	position: absolute;
+	height: 3rem;
+	width: 100%;
+	background: -webkit-gradient(
+		radial,
+		50% 0,
+		10,
+		50% 0,
+		40,
+		from(#fff),
+		color-stop(0.49, #fff),
+		color-stop(0.51, transparent),
+		to(transparent)
+	);
+	-webkit-background-size: 49px 100%;
+}
+
+.scallop-up {
+	position: absolute;
+	bottom: -28vh;
+	height: 3rem;
+	width: 100%;
+	background: -webkit-gradient(
+		radial,
+		50% 100%,
+		10,
+		50% 100%,
+		40,
+		from(#fff),
+		color-stop(0.49, #fff),
+		color-stop(0.51, transparent),
+		to(transparent)
+	);
+	-webkit-background-size: 49px 100%;
 }
