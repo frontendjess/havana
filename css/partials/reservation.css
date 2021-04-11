@@ -36,8 +36,8 @@
 	width: 90%;
 	margin: 0 auto;
 }
-form select,
-form input {
+.reservation-form select,
+.reservation-form input {
 	display: block;
 	width: 100%;
 	margin: 1.5rem 1.2rem;
@@ -49,20 +49,20 @@ form input {
 	border-bottom: 1px solid #eee;
 	font-weight: 300;
 }
-form input[type='text'],
-form input[type='number'],
-form input::placeholder,
+.reservation-form input[type='text'],
+.reservation-form input[type='number'],
+.reservation-form input::placeholder,
 select {
 	color: #9a9a9a;
 }
-form input[type='submit'] {
+.reservation-form input[type='submit'] {
 	color: #fff;
 	background: #f2745f;
 	padding: 1.2rem 0;
 	border-radius: 4px;
 	cursor: pointer;
 }
-form input[type='submit']:hover {
+.reservation-form input[type='submit']:hover {
 	opacity: 0.9;
 }
 

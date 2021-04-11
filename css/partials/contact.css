@@ -1,0 +1,25 @@
+.contact-banner {
+	min-height: 100vh;
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+		url('../../img/reservation-banner2.jpg') center/cover no-repeat;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: #fff;
+	padding-bottom: 20px;
+}
+
+.contact-form-container {
+	height: 33rem;
+	border: solid 1px red;
+}
+
+.contact-title {
+	padding-bottom: 4rem;
+	margin-bottom: 2rem;
+}
+.contact-form-container {
+	background: #fff;
+	width: 84rem;
+}
