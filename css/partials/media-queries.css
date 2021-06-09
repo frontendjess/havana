@@ -134,6 +134,22 @@
 	}
 }
 
+/* scallops height fix */
+@media screen and (min-height: 765px) {
+	.scallop-up {
+		bottom: -27vh;
+	}
+}
+@media screen and (min-height: 1017px) {
+	.scallop-up {
+		bottom: -27.5vh;
+	}
+}
+@media screen and (min-height: 1366px) {
+	.scallop-up {
+		bottom: -28vh;
+	}
+}
 /* animations */
 @keyframes fadeUp {
 	0% {

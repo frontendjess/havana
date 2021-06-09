@@ -13,7 +13,7 @@
 
 .contact-form-container {
 	width: 48em;
-	min-height: 90vh;
+	/* min-height: 90vh; */
 	border-radius: 1rem;
 	margin-bottom: 2.4rem;
 	padding: 4rem 5.5rem;
